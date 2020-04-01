@@ -1,0 +1,38 @@
+{
+  "name": "therona",
+  "version": "1.0.0",
+  "description": "SARS-2-COVID-19 Application Tracking infected, healthy and deceased Americans.",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"node server.js\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build",
+    "seed": "node scripts/seedDb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caitlanjeffrey/theRona.git"
+  },
+  "author": "Caitlan Jeffrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caitlanjeffrey/theRona/issues"
+  },
+  "homepage": "https://github.com/caitlanjeffrey/theRona#readme"
+}
