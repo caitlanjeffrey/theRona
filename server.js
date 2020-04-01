@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const routes = require("./routes");
 var db = require("./models");
 const app = express();
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 5000;
 const bodyParser = require("body-parser")
 
 const cookieParser = require('cookie-parser');
@@ -38,8 +38,11 @@ if (process.env.NODE_ENV === "production") {
 
 //   next();
 // });
+
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/thelongway");
+
 const dB = mongoose.connection;
+
 dB.once("open", () => console.log("hello world!"))
 app.use(routes);
 // Connect to the Mongo DB
