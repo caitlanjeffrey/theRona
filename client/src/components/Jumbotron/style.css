@@ -1,0 +1,15 @@
+.jumbotron{
+    padding-bottom: 0.5rem;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+.display-4 {
+    font-weight: 600;
+    color: red;
+    text-align: right;
+}
+
+.display {
+    text-align: right;
+}
