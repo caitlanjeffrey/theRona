@@ -1,6 +1,6 @@
 .jumbotron{
     padding-bottom: 0.5rem;
-    height: auto;
+    /* height: auto; */
     background-color: whitesmoke;
 }
 
@@ -12,4 +12,5 @@
 
 .display {
     text-align: right;
+    font-size: 1.7rem;
 }

@@ -1,13 +1,16 @@
-.nav {
+.navbar {
     height: 3.5rem;
-    background-color: #47616E
+    background-color: #546A76
+}
+.navbar-brand, .nav-link {
+    color: whitesmoke
 }
 
-.nav-item {
-    color: whitesmoke;
-    text-align: center;
+.nav-link:hover, .navbar-brand:hover {
+    color: #F9DEE1;
+}
+.navbar-toggler {
+    background-color: white;
+    color: black;
 }
 
-.nav-link {
-    padding: 1rem;
-}

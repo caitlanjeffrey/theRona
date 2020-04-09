@@ -1,6 +1,5 @@
 import React from 'react'
 import "./style.css"
-import Carousel from '../Carousel'
 
 function Jumbotron() {
 
@@ -9,13 +8,12 @@ function Jumbotron() {
             <div className="container-jumbotron">
                 <div className="jumbotron jumbotron-fluid">
                     <div className="container">
-                        <h1 className="display-4">12,745</h1>
+                        <h2 className="display">Since January 2, 2020</h2>
+                        <h1 className="display-4">14,800</h1>
                         <h2 className="display">Deaths.</h2>
-
-                        <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                        <p className="lead">“We have it totally under control. It’s one person coming in from China, and we have it under control. It’s going to be just fine.” - President Donald Trump</p>
                     </div>
                 </div>
-                <Carousel />
             </div>
         </div>
 
