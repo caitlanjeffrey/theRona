@@ -2,6 +2,7 @@
     height: 3.5rem;
     background-color: #546A76
 }
+
 .navbar-brand, .nav-link {
     color: whitesmoke
 }
@@ -9,6 +10,7 @@
 .nav-link:hover, .navbar-brand:hover {
     color: #F9DEE1;
 }
+
 .navbar-toggler {
     background-color: white;
     color: black;

@@ -3,15 +3,16 @@ import "./style.css"
 
 import Jumbotron from '../../components/Jumbotron';
 import Container from '../../components/Container';
+import CardBasic from '../../components/CardBasic';
 
 function DiseaseSymptoms() {
     console.log("Hello World")
 
-
     return (
         <div>
-            <Jumbotron />
-            <Container />
+            <Container>
+                <CardBasic />
+            </Container>
         </div>
     )
 }

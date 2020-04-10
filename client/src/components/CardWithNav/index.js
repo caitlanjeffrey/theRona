@@ -9,10 +9,10 @@ function CardWithNav() {
                 <div className="card-header">
                     <ul className="nav nav-tabs card-header-tabs">
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">World Health Organization</a>
+                            <a className="nav-link active" href="/who">World Health Organization</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Centers For Disease Control</a>
+                            <a className="nav-link" href="/cdc">Centers For Disease Control</a>
                         </li>
                     </ul>
                 </div>
@@ -22,6 +22,7 @@ function CardWithNav() {
                     <p className="card-text">Most people who become infected experience mild illness and recover, but it can be more severe for others.</p>
                     <a href="#" className="btn btn-primary">Emergency Information</a>
                 </div>
+
             </div>
         </div>
     )

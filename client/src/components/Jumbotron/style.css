@@ -1,7 +1,19 @@
 .jumbotron {
     padding-bottom: 0.5rem;
     /* height: auto; */
-    background-color: whitesmoke;
+    color: whitesmoke;
+    background-image:url("https://www.cdc.gov/homepage/images/banner/covid-19-1330px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lead {
+    margin-top: 5rem;
+    font-weight: 600;
+}
+
+.sub-lead {
+    text-align: right;
 }
 
 .display-4 {
