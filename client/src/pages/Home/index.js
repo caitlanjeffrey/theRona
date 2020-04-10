@@ -1,21 +1,20 @@
 import React from 'react';
 import "./style.css"
 
-import NavBar from '../../components/NavBar';
 import Jumbotron from '../../components/Jumbotron';
-import ContainerCardNav from '../../components/ContainerCardNav';
-import Footer from '../../components/Footer';
+import Container from '../../components/Container';
+import CardWithNav from '../../components/CardWithNav';
+import CardWithPic from '../../components/CardWithPic';
 
 function Home() {
-    console.log("Hello World")
-
 
     return (
         <div>
-            <NavBar />
             <Jumbotron />
-            <ContainerCardNav />
-            <Footer />
+            <Container>
+                <CardWithNav />
+                <CardWithPic />
+            </Container>
         </div>
     )
 }

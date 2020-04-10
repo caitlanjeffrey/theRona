@@ -1,0 +1,24 @@
+.card-header {
+    background-color: #88A0A8;
+}
+
+.cardwithnav {
+    margin-bottom: 2rem;
+}
+.btn-primary {
+    background-color: red;
+    border-color: red;
+    color: whitesmoke;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: black;
+    border-color: black;
+    color: red;
+}
+
+.btn-primary:active {
+    background-color: red;
+    border-color: red;
+    color: whitesmoke;
+}

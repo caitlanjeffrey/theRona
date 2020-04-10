@@ -24,8 +24,7 @@ function Footer() {
             </div>
             <div className="footer-copyright">
                 <div className="container">
-                    © 2020 Copyright
-            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+                    © 2020 Copyright PrairieRose Development
                 </div>
             </div>
         </footer>
