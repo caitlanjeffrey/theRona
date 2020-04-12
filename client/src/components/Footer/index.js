@@ -1,5 +1,5 @@
 import React from 'react'
-import "./style.css"
+import './style.css';
 
 function Footer() {
 
@@ -24,7 +24,7 @@ function Footer() {
             </div>
             <div className="footer-copyright">
                 <div className="container">
-                    © 2020 Copyright PrairieRose Development
+                    © 2020 Copyright Prairie Rose Development
                 </div>
             </div>
         </footer>

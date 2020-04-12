@@ -1,0 +1,16 @@
+.horizontal-card {
+    margin-top: 2rem;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.mb-3 {
+    border-color: red;
+    border-width: 3px;
+}
+
+.card-img {
+    width: 50%;
+    margin: 1.5rem;
+}

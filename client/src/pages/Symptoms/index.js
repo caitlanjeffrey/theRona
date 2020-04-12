@@ -1,9 +1,9 @@
 import React from 'react';
-import "./style.css"
 
-import Jumbotron from '../../components/Jumbotron';
 import Container from '../../components/Container';
 import CardBasic from '../../components/CardBasic';
+import FilledCard from '../../components/FilledCard';
+import HorizontalCardWithImage from '../../components/HorizontalCardWithImage';
 
 function DiseaseSymptoms() {
     console.log("Hello World")
@@ -11,7 +11,9 @@ function DiseaseSymptoms() {
     return (
         <div>
             <Container>
+                <HorizontalCardWithImage />
                 <CardBasic />
+                <FilledCard />
             </Container>
         </div>
     )

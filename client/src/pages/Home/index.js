@@ -1,5 +1,4 @@
 import React from 'react';
-import "./style.css"
 
 import Jumbotron from '../../components/Jumbotron';
 import Container from '../../components/Container';
@@ -13,6 +12,7 @@ function Home() {
             <Jumbotron />
             <Container>
                 <CardWithNav />
+                <hr />
                 <CardWithPic />
             </Container>
         </div>
