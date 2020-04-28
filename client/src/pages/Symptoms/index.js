@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 import Container from '../../components/Container';
 import CardBasic from '../../components/CardBasic';
@@ -10,6 +11,7 @@ function DiseaseSymptoms() {
 
     return (
         <div>
+            <h1 className="page-title">Symptoms of Coronavirus</h1>
             <Container>
                 <HorizontalCardWithImage />
                 <CardBasic />

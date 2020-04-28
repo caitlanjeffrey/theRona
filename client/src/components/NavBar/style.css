@@ -19,3 +19,11 @@
     color: black;
 }
 
+.dropdown-menu {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.dropdown-item:hover {
+    color: #88A0A8;
+}

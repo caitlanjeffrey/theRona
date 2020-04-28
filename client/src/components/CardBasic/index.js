@@ -21,14 +21,20 @@ function CardBasic() {
                     <h5 className="card-text center-card-text">Shortness Of Breath</h5>
                 </div>
             </div>
+            <hr />
+            <h3 className="card-title">Other Symptoms</h3>
+            <p className="card-text p-subtext">This list is not all inclusive. Please consult your medical provider for any other symptoms that are severe or concerning to you.</p>
             <div className="row">
-                <li>Fever</li>
-                <li>Headache</li>
-                <li>Chills</li>
-                <li>Sore Throat</li>
-                <li>Repeated Shaking with Chills</li>
-                <li>Muscle Pain</li>
-                <li>New Loss of Taste or Smell</li>
+                <div className="card-body col-md-4 list-of-mainsymptoms">
+                    <li className="main-symptom-list">Headache</li>
+                    <li className="main-symptom-list">Chills</li>
+                    <li className="main-symptom-list">Sore Throat</li>
+                </div>
+                <div className="card-body col-md-4 list-of-mainsymptoms">
+                    <li className="main-symptom-list">Repeated Shaking with Chills</li>
+                    <li className="main-symptom-list">Muscle Pain</li>
+                    <li className="main-symptom-list">New Loss of Taste or Smell</li>
+                </div>
             </div>
             <a href="https://www.cdc.gov/coronavirus/2019-ncov/downloads/COVID19-symptoms.pdf" class="card-link">For More Information on Symptoms of the Coronavirus</a>
         </div>

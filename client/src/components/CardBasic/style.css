@@ -34,3 +34,8 @@ h4 {
     color: #C8DBC7;
     text-decoration: underline;
 }
+
+.list-of-mainsymptoms {
+    margin-left: 5rem;
+    font-size: 1rem;
+}
