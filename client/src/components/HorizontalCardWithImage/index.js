@@ -13,6 +13,7 @@ function HorizontalCardWithImage() {
                     <div className="col-md-10">
                         <div className="card-body">
                             <h5 className="card-title">Older adults and people who have severe underlying medical conditions like heart or lung disease or diabetes seem to be at higher risk for developing more serious complications from COVID-19 illness.</h5>
+                            <h5 className="card-title">Cancer patients — especially those with blood or lung malignancies, or tumors that have spread throughout the body — have a higher risk of death or other severe complications from covid-19 compared with those without cancer.</h5>
                         </div>
                     </div>
                 </div>

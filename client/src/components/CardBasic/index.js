@@ -21,6 +21,15 @@ function CardBasic() {
                     <h5 className="card-text center-card-text">Shortness Of Breath</h5>
                 </div>
             </div>
+            <div className="row">
+                <li>Fever</li>
+                <li>Headache</li>
+                <li>Chills</li>
+                <li>Sore Throat</li>
+                <li>Repeated Shaking with Chills</li>
+                <li>Muscle Pain</li>
+                <li>New Loss of Taste or Smell</li>
+            </div>
             <a href="https://www.cdc.gov/coronavirus/2019-ncov/downloads/COVID19-symptoms.pdf" class="card-link">For More Information on Symptoms of the Coronavirus</a>
         </div>
     )
