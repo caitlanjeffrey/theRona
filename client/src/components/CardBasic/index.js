@@ -21,6 +21,8 @@ function CardBasic() {
                     <h5 className="card-text center-card-text">Shortness Of Breath</h5>
                 </div>
             </div>
+            <a href="/testing" class="card-link">Should I be tested for coronavirus?</a>
+
             <hr />
             <h3 className="card-title">Other Symptoms</h3>
             <p className="card-text p-subtext">This list is not all inclusive. Please consult your medical provider for any other symptoms that are severe or concerning to you.</p>

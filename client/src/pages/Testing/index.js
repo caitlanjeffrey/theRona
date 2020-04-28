@@ -1,21 +1,22 @@
 import React from 'react';
+import './style.css';
 
-import Jumbotron from '../../components/Jumbotron';
 import Container from '../../components/Container';
-import CardWithNav from '../../components/CardWithNav';
-import CardWithPic from '../../components/CardWithPic';
+import CardBasic from '../../components/CardBasic';
+import FilledCard from '../../components/FilledCard';
+import HorizontalCardWithImage from '../../components/HorizontalCardWithImage';
 
 function TestingCovid() {
 
     return (
         <div>
-            <Jumbotron />
+            <h1 className="page-title">Testing for COVID-19</h1>
             <Container>
-                <CardWithNav />
-                <hr />
-                <CardWithPic />
+                <HorizontalCardWithImage />
+                <CardBasic />
+                <FilledCard />
             </Container>
-        </div>
+        </div >
     )
 }
 

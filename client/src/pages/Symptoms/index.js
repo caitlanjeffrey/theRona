@@ -7,7 +7,6 @@ import FilledCard from '../../components/FilledCard';
 import HorizontalCardWithImage from '../../components/HorizontalCardWithImage';
 
 function DiseaseSymptoms() {
-    console.log("Hello World")
 
     return (
         <div>
